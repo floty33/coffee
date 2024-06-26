@@ -173,7 +173,9 @@ section{
     margin-bottom: 24px;
 }
 .explore__description{
+    margin: 0 auto;
     margin-bottom: 90px;
+    width:604px;
 }
 .hero__image{
     width:650px;
@@ -450,5 +452,76 @@ section{
     font-size: 22px;
     font-weight: 500;
     line-height: 30px;  
+}
+
+@media (max-width: 768px){
+    .header__nav,
+    .cusromer-two{
+        display: none;
+    }
+    .container{
+        max-width: 668px;
+        margin: 0 auto;
+    }
+    .hero__container {
+        display: block;
+
+    }
+    .hero__title{
+        text-align: center;
+    }
+    .hero__description{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .hero__buttons {
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .explore__title{
+        width:500px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .explore__description {
+        width: 504px;
+    }
+    .explore__cards {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .explore__card-item {
+        height: 540px;
+    }
+    .explore__card-description {
+        width: 350px;
+    }
+    .order__container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .order__content-title {
+        text-align: center;
+        width: 602px;
+    }
+    .order__content-description {
+        text-align: center;
+        width: 602px;
+    }
+    .order__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__bottom {
+        flex-direction: column;
+    }
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 90px 266px;
+    }
 }
 
