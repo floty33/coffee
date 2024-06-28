@@ -32,6 +32,23 @@
                         <img class="header__icon-cart" src="img/cart.png" alt="Cart">
                     </a>
                     <button class="header__button button">Buy gift vouchers</button>
+                    <div class="burger-menu" id="burger-menu">
+                        <div class="burger__menu-icon">
+                            <img src="img/burger-menu.png" alt="Burger Menu Icon" style="
+                               width: 20px;
+                               height: 20px;
+                            ">
+                        </div>
+                        <div class="mobile-menu" id="mobile-menu">
+                            <ul class="mobile-menu-list">
+                                <li class="mobile-menu-item"><a href="katalog.html" class="mobile-menu-link">Cafe Menu</a></li>
+                                <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">About Us</a></li>
+                                <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Find Us</a></li>
+                                <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Alowishus Catering</a></li>
+                            </ul>
+                            <button class="header__button button">Buy gift vouchers</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,19 +97,25 @@
                     <div class="explore__card-item">
                         <h3 class="explore__card-title">Our Catering</h3>
                         <p class="explore__card-description">Alowishus Catering, delicious drop off Catering.</p>
-                        <img class="explore__card-image" src="img/food.svg" alt="Catering">
+                        <div class="explore__card-image">
+                            <img class="explore__image" src="img/food.svg" alt="Catering">
+                        </div>
                         <button class="explore__button button">ORDER CATERING</button>
                     </div>
                     <div class="explore__card-item">
                         <h3 class="explore__card-title">The Food</h3>
                         <p class="explore__card-description">Our entire menu is available as dine in or takeaway.</p>
-                        <img class="explore__card-image" src="img/fast-food.svg" alt="Food">
+                        <div class="explore__card-image">
+                            <img class="explore__image" src="img/fast-food.svg" alt="Catering">
+                        </div>
                         <button class="explore__button button">FOOD MENU</button>
                     </div>
                     <div class="explore__card-item">
                         <h3 class="explore__card-title">The Gelato</h3>
                         <p class="explore__card-description">Life is like GELATO, enjoy it before it melts.</p>
-                        <img class="explore__card-image" src="img/ice-cream.svg" alt="Gelato">
+                        <div class="explore__card-image">
+                            <img class="explore__image" src="img/ice-cream.svg" alt="Catering">
+                        </div>
                         <button class="explore__button button">DISCOVER MORE</button>
                     </div>
                 </div>
@@ -186,6 +209,14 @@
                 <p class="footer__description description">We made it our mission to create community everyday and grow meaningful, lasting relationships with our staff, our suppliers and of course you, our customers.</p>
             </div>
             <div class="footer__section">
+                <h3 class="footer__title title">Store Locations</h3>
+                <p class="footer__description description">Find your nearest Alowishus store with opening hours, location and contact details.</p>
+                <div class="footer__section-link">
+                    <button class="footer__button-find">FIND MY ALOWISHUS</button>
+                    <img src="img/arrow.svg" alt="arrow" class="footer__button-arrow">
+                </div>
+            </div>
+            <div class="footer__section">
                 <h3 class="footer__title title">Contact Alowishus!</h3>
                 <div class="footer_media-item">
                     <a href="#" class="footer__icon">
@@ -215,14 +246,6 @@
                 </div>
             </div>
             <div class="footer__section">
-                <h3 class="footer__title title">Store Locations</h3>
-                <p class="footer__description description">Find your nearest Alowishus store with opening hours, location and contact details.</p>
-                <div class="footer__section-link">
-                    <button class="footer__button-find">FIND MY ALOWISHUS</button>
-                    <img src="img/arrow.svg" alt="arrow" class="footer__button-arrow">
-                </div>
-            </div>
-            <div class="footer__section">
                 <h3 class="footer__title title">First One’s On Us!</h3>
                 <input type="email" placeholder="E-mail" class="footer__section-input">
                 <br>
@@ -236,5 +259,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
